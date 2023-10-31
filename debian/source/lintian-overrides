@@ -1,0 +1,2 @@
+# lintian fails to get the hint from debian/missing-sources
+source-is-missing guzzle_sphinx_theme/guzzle_sphinx_theme/static/jquery.js line length is 32087 characters (>512)

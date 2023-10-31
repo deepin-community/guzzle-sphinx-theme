@@ -1,5 +1,153 @@
-template-repository (1.0-1) unstable; urgency=medium
+guzzle-sphinx-theme (0.7.11-6) unstable; urgency=medium
 
-  * Initial release
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sandro Tosi <morph@debian.org>  Mon, 02 May 2022 23:36:40 -0400
+
+guzzle-sphinx-theme (0.7.11-5) unstable; urgency=medium
+
+  [ Louis-Philippe Véronneau ]
+  * Update the VCS paths. Closes: #946092
+
+  [ Gianfranco Costamagna ]
+  * Bump compat level to 12
+  * Bump std-version to 4.5.0
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 22 Mar 2020 15:37:39 +0100
+
+guzzle-sphinx-theme (0.7.11-4) unstable; urgency=medium
+
+  * debhelper 11
+  * Standards-Version: 4.3.0; no changes needed
+  * Drop useless get-orig-source target
+  * Drop ancient X-Python-Version field
+  * debian/watch: switch to pypi.debian.net
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Thu, 14 Feb 2019 09:02:40 -0800
+
+guzzle-sphinx-theme (0.7.11-3) unstable; urgency=medium
+
+  * Acknowledge that package is now adopted. (Closes: #823508)
+  * Update to Standards-Version: 4.1.3 (noop)
+  * Amend lintian override to add the specific filename
+  * Add Gianfranco Costamagna as co-maintainer, thank you Gianfranco!
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Fri, 02 Mar 2018 07:55:15 -0800
+
+guzzle-sphinx-theme (0.7.11-2) unstable; urgency=medium
+
+  [ David Prévot ]
+  * Remove self from uploaders
+
+  [ Sven Hartge ]
+  * Fix guzzle generation for jquery.js file (Closes: #878108)
+
+  [ Gianfranco Costamagna ]
+  * Team upload
+  * Bump std-version to 4.1.1, no changes required
+  * Bump compat level to 10
+  * Switch VCS fields to secure mode
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 10 Oct 2017 14:25:05 +0200
+
+guzzle-sphinx-theme (0.7.11-1) unstable; urgency=medium
+
+  [ Michael R. Crusoe ]
+  * New upstream release
+  * Release for Python3 only
+
+  [ Sascha Steinbiss ]
+  * Add missing license info
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Sat, 24 Jun 2017 16:28:28 -0700
+
+guzzle-sphinx-theme (0.7.10-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * Removing slow kerning settings. Adding method border.
+
+ -- David Prévot <taffit@debian.org>  Wed, 01 Jul 2015 14:54:56 -0400
+
+guzzle-sphinx-theme (0.7.9-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * Adding requirements.txt
+  * 0.7.9 release
+
+ -- David Prévot <taffit@debian.org>  Sat, 27 Jun 2015 11:17:13 -0400
+
+guzzle-sphinx-theme (0.7.8-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * No longer pulling admonitions left in dds
+  * 0.7.8 relesae
+
+ -- David Prévot <taffit@debian.org>  Sun, 14 Jun 2015 14:56:26 -0400
+
+guzzle-sphinx-theme (0.7.7-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * Restyling admonitions
+  * 0.7.7
+
+ -- David Prévot <taffit@debian.org>  Sat, 02 May 2015 21:30:24 -0400
+
+guzzle-sphinx-theme (0.7.6-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * TOC and local TOC fixes
+
+ -- David Prévot <taffit@debian.org>  Fri, 01 May 2015 09:39:45 -0400
+
+guzzle-sphinx-theme (0.7.5-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * Updating fonts to allow bold, and removing source code pro
+  * 0.7.4 release
+
+  [ David Prévot ]
+  * Use local fonts from fonts-liberation
+
+ -- David Prévot <taffit@debian.org>  Thu, 30 Apr 2015 15:53:39 -0400
+
+guzzle-sphinx-theme (0.7.3-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * 0.7.3
+
+ -- David Prévot <taffit@debian.org>  Sat, 25 Apr 2015 10:18:56 -0400
+
+guzzle-sphinx-theme (0.7.2-1) unstable; urgency=medium
+
+  [ Michael Dowling ]
+  * 0.7.2 release
+
+  [ David Prévot ]
+  * Update watch file
+
+ -- David Prévot <taffit@debian.org>  Tue, 21 Apr 2015 16:35:44 -0400
+
+guzzle-sphinx-theme (0.6.0-3) unstable; urgency=medium
+
+  * Use libjs-bootstrap
+  * Bump standards version to 3.9.6
+
+ -- David Prévot <taffit@debian.org>  Sun, 26 Oct 2014 05:53:08 -0400
+
+guzzle-sphinx-theme (0.6.0-2) unstable; urgency=medium
+
+  * Update static path (Closes: #759228)
+  * Add X-Python-Version
+  * Update internal path
+
+ -- David Prévot <taffit@debian.org>  Mon, 25 Aug 2014 16:09:16 -0400
+
+guzzle-sphinx-theme (0.6.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #746187)
+
+ -- David Prévot <taffit@debian.org>  Sun, 27 Apr 2014 17:09:35 -0400
