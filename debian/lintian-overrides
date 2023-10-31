@@ -1,0 +1,10 @@
+# The google thing is only inserted if explicitly asked
+privacy-breach-google-adsense usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/layout.html (choke on: '.google-analytics.com/ga.js')
+# The package depends on libjs-bootstrap
+package-contains-broken-symlink usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/css/bootstrap-theme.min.css ../../../../../../../share/javascript/bootstrap/css/bootstrap-theme.min.css
+package-contains-broken-symlink usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/css/bootstrap.min.css ../../../../../../../share/javascript/bootstrap/css/bootstrap.min.css
+package-contains-broken-symlink usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/fonts/glyphicons-halflings-regular.eot ../../../../../../../share/javascript/bootstrap/fonts/glyphicons-halflings-regular.eot
+package-contains-broken-symlink usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/fonts/glyphicons-halflings-regular.svg ../../../../../../../share/javascript/bootstrap/fonts/glyphicons-halflings-regular.svg
+package-contains-broken-symlink usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/fonts/glyphicons-halflings-regular.ttf ../../../../../../../share/javascript/bootstrap/fonts/glyphicons-halflings-regular.ttf
+package-contains-broken-symlink usr/lib/python3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/fonts/glyphicons-halflings-regular.woff ../../../../../../../share/javascript/bootstrap/fonts/glyphicons-halflings-regular.woff
+package-contains-broken-symlink usr/lib/pythont3/dist-packages/guzzle_sphinx_theme/guzzle_sphinx_theme/static/fonts/glyphicons-halflings-regular.woff2 ../../../../../../../share/javascript/bootstrap/fonts/glyphicons-halflings-regular.woff2
